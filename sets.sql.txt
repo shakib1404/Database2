@@ -1,0 +1,11 @@
+
+SELECT Country, Gender, SUM(Salary) AS TotalSalary
+FROM Employee
+GROUP BY 
+ GROUPING SETS
+ (
+  (Country, Gender),
+  (Country),
+  (Gender),
+  ()
+ )
