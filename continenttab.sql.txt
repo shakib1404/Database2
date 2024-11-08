@@ -1,0 +1,6 @@
+CREATE TABLE Areas (
+    continent VARCHAR(30),
+    country VARCHAR(30),
+    city VARCHAR(30),
+    saleAmount VARCHAR(30)
+);
