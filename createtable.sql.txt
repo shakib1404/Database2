@@ -1,0 +1,7 @@
+CREATE TABLE Employee (
+    id VARCHAR(50),
+    name VARCHAR(50),
+    gender VARCHAR(50),
+    salary NUMBER(10, 2), -- Adjusted to a reasonable size for a salary column
+    country VARCHAR(50)
+);
