@@ -1,0 +1,4 @@
+SELECT continent, country, city, 
+       SUM(CAST(saleAmount AS DECIMAL)) AS totalsale
+FROM Areas
+GROUP BY ROLLUP(continent, country, city);
