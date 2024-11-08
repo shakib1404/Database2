@@ -1,0 +1,30 @@
+WITH SalesByCity AS (
+    SELECT continent, country, city, 
+           SUM(CAST(saleAmount AS DECIMAL)) AS totalsale
+    FROM Areas
+    GROUP BY continent, country, city
+),
+SalesByCountry AS (
+    SELECT continent, country, NULL AS city, 
+           SUM(CAST(saleAmount AS DECIMAL)) AS totalsale
+    FROM Areas
+    GROUP BY continent, country
+),
+SalesByContinent AS (
+    SELECT continent, NULL AS country, NULL AS city, 
+           SUM(CAST(saleAmount AS DECIMAL)) AS totalsale
+    FROM Areas
+    GROUP BY continent
+),
+SalesTotal AS (
+    SELECT NULL AS continent, NULL AS country, NULL AS city, 
+           SUM(CAST(saleAmount AS DECIMAL)) AS totalsale
+    FROM Areas
+)
+SELECT * FROM SalesByCity
+UNION ALL
+SELECT * FROM SalesByCountry
+UNION ALL
+SELECT * FROM SalesByContinent
+UNION ALL
+SELECT * FROM SalesTotal;
