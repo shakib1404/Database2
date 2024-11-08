@@ -1,0 +1,10 @@
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (1, 'Mark', 'Male', 5000, 'USA');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (2, 'John', 'Male', 4500, 'India');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (3, 'Pam', 'Female', 5500, 'USA');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (4, 'Sara', 'Female', 4000, 'India');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (5, 'Todd', 'Male', 3500, 'India');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (6, 'Mary', 'Female', 5000, 'UK');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (7, 'Ben', 'Male', 6500, 'UK');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (8, 'Elizabeth', 'Female', 7000, 'USA');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (9, 'Tom', 'Male', 5500, 'UK');
+INSERT INTO Employee (id, name, gender, salary, country) VALUES (10, 'Ron', 'Male', 5000, 'USA');
