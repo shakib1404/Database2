@@ -1,0 +1,16 @@
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1990, 'red', 6);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1990, 'white', 87);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1990, 'blue', 43);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1991, 'red', 54);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1991, 'white', 36);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1991, 'blue', 28);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1992, 'white', 74);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Chevy', 1993, 'silver', 71);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1990, 'white', 41);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1990, 'blue', 83);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1991, 'red', 55);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1991, 'blue', 29);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1992, 'white', 52);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1992, 'red', 48);
+INSERT INTO Sales (Make, ModelYear, Color, Sales) VALUES ('Ford', 1993, 'blue', 20);
+COMMIT;
