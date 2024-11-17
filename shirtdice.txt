@@ -1,0 +1,3 @@
+SELECT * 
+FROM Sales
+WHERE (Make = 'Ford' AND Color = 'blue') OR ModelYear = 1991;

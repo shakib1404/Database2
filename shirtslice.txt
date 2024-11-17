@@ -1,0 +1,3 @@
+SELECT * 
+FROM Sales
+WHERE ModelYear = 1990;
