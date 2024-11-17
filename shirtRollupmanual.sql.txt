@@ -1,0 +1,7 @@
+SELECT Make, ModelYear, Color, SUM(Sales) AS TotalSales FROM Sales GROUP BY Make, ModelYear, Color
+UNION ALL
+SELECT Make, ModelYear, NULL AS Color, SUM(Sales) AS TotalSales FROM Sales GROUP BY Make, ModelYear
+UNION ALL
+SELECT Make, NULL AS ModelYear, NULL AS Color, SUM(Sales) AS TotalSales FROM Sales GROUP BY Make
+UNION ALL
+SELECT NULL AS Make, NULL AS ModelYear, NULL AS Color, SUM(Sales) AS TotalSales FROM Sales;
